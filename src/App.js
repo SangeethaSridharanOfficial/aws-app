@@ -1,10 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Main from './components/Main';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Sangeetha</h1>
+    <div className='App'>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
